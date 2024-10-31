@@ -17,7 +17,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
           <NavBar />
         </header>
         <main className="relative m-auto">{children}</main>
-        <footer className="text-center leading-[4rem] opacity-70">
+        <footer className="mt-auto text-center leading-[4rem] opacity-70">
           © 2024 NOX-Creation Prueba Técnica
         </footer>
       </body>

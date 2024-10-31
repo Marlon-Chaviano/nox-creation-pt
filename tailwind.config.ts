@@ -9,6 +9,7 @@ const config: Config = {
         secondary: "#0284C7",
         foreground: "#0F172A",
         active: "#f7cf49",
+        cyan_blue: "#3982c1",
       },
     },
   },
