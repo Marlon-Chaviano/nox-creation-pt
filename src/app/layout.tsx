@@ -6,13 +6,14 @@ import {NavBar} from "@/components/NavBar";
 export const metadata: Metadata = {
   title: "Prueba Técnica NOX-Creation",
   description: "Solución a la prueba tecnica de NOX-Creation",
-  viewport: "1.0",
+  viewport: "0.0",
+
 };
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en">
-      <body className="dark m-auto grid min-h-screen grid-rows-[auto,1fr,auto] bg-primary font-sans text-foreground antialiased">
+      <body className="dark m-auto grid min-h-screen grid-rows-[auto,1fr,auto] bg-white font-sans text-foreground antialiased">
         <header className="w-full text-xl font-bold leading-[4rem]">
           <NavBar />
         </header>

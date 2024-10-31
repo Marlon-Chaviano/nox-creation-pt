@@ -4,7 +4,7 @@ import LogoIcon from "./icons/LogoIcon";
 
 export function NavBar() {
   return (
-    <nav className="flex w-full items-center justify-between px-4 py-4 text-white lg:px-20">
+    <nav className="flex w-full items-center justify-between px-4 py-4 bg-primary text-white lg:px-20">
       <div className="flex items-center space-x-1">
         <LogoIcon fill="#fff" />
         <h1 className="text-xl">protech</h1>

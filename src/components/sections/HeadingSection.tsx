@@ -26,12 +26,12 @@ function HeadingSection() {
         </button>
       </div>
 
-      <div className="relative mt-10 w-full lg:w-screen">
-        <Image alt="1" className="-z-10 m-auto" src={DesktopImage} />
-        <Image alt="1" className="absolute bottom-52 -z-30 w-full" src={Line} />
+      <div className="relative mt-10 w-full">
+        <Image alt="Mac Desktop Photo" className="-z-10 m-auto h-auto" src={DesktopImage} />
+        <Image alt="vector" className="absolute bottom-52 -z-30 h-auto w-full" src={Line} />
         <Image
-          alt="1"
-          className="min-w-screen absolute -bottom-12 -z-40 w-full lg:-bottom-20"
+          alt="vector"
+          className="absolute -bottom-12 -z-40 h-auto w-full lg:-bottom-20"
           src={Vector}
         />
       </div>
