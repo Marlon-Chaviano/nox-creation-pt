@@ -11,11 +11,11 @@ export const metadata: Metadata = {
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en">
-      <body className="dark m-auto grid min-h-screen grid-rows-[auto,1fr,auto] overflow-x-hidden bg-primary font-sans text-foreground antialiased">
+      <body className="dark m-auto grid min-h-screen grid-rows-[auto,1fr,auto] bg-primary font-sans text-foreground antialiased">
         <header className="w-full text-xl font-bold leading-[4rem]">
           <NavBar />
         </header>
-        <main className="relative w-full">{children}</main>
+        <main className="relative m-auto">{children}</main>
         <footer className="text-center leading-[4rem] opacity-70">
           © 2024 NOX-Creation Prueba Técnica
         </footer>

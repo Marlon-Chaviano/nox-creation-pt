@@ -8,6 +8,7 @@ const config: Config = {
         primary: "#701A75",
         secondary: "#0284C7",
         foreground: "#0F172A",
+        active: "#f7cf49",
       },
     },
   },

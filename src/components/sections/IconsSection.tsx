@@ -39,7 +39,7 @@ function IconsSection() {
         {icons.map(({id, icon, title}) => (
           <li
             key={id}
-            className="flex items-center space-x-2 text-xs font-bold text-foreground md:text-lg"
+            className="flex cursor-pointer items-center space-x-2 text-xs font-bold text-foreground transition-transform duration-200 hover:scale-[1.1] md:text-lg md:hover:scale-[1.2]"
           >
             <span>{icon}</span>
             <span>{title}</span>
