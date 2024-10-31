@@ -1,6 +1,6 @@
 function AstromIcon() {
   return (
-    <svg fill="none" height="35" viewBox="0 0 45 35" width="45" xmlns="http://www.w3.org/2000/svg">
+    <svg className="h-8 w-full" fill="none" viewBox="0 0 45 35" xmlns="http://www.w3.org/2000/svg">
       <path
         d="M15.1229 0.5H24.1217L20.5096 10.5943C14.152 11.7115 9.28944 17.8625 9.28944 25.283C9.28944 28.6305 10.279 31.7197 11.9489 34.2049H0L10.9236 3.67808C11.6104 1.75863 13.2735 0.5 15.1229 0.5Z"
         fill="#7C3AED"

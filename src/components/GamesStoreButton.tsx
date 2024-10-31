@@ -11,7 +11,7 @@ function GamesStoreButton({variant}: {variant: "apple" | "play-store"}) {
         <span className="text-nowrap text-xs font-semibold">
           {variant == "apple" ? "Download on the" : "GET IT ON"}
         </span>
-        <span className="text-xl font-bold leading-[0.6em]">
+        <span className="text-nowrap text-xl font-bold leading-[0.6em]">
           {variant == "apple" ? "App Store" : "Google Play"}
         </span>
       </div>

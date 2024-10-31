@@ -6,8 +6,7 @@ import {NavBar} from "@/components/NavBar";
 export const metadata: Metadata = {
   title: "Prueba Técnica NOX-Creation",
   description: "Solución a la prueba tecnica de NOX-Creation",
-  viewport: "0.0",
-
+  viewport: "1",
 };
 
 export default function RootLayout({children}: {children: React.ReactNode}) {

@@ -34,12 +34,12 @@ const icons = [
 
 function IconsSection() {
   return (
-    <section className="mt-30 z-50 flex min-h-48 w-full justify-center bg-white px-6 md:px-20">
-      <ul className="mx-auto flex w-full list-none items-center justify-between space-x-3 lg:w-[70%]">
+    <section className="mt-30 z-50 flex min-h-48 justify-center bg-white px-6 md:px-20">
+      <ul className="mx-auto flex list-none content-center items-center space-x-8 md:justify-between lg:w-[70%]">
         {icons.map(({id, icon, title}) => (
           <li
             key={id}
-            className="flex cursor-pointer items-center space-x-2 text-xs font-bold text-foreground transition-transform duration-200 hover:scale-[1.1] md:text-lg md:hover:scale-[1.2]"
+            className="flex cursor-pointer flex-col items-center space-y-2 text-center text-xs font-bold text-foreground transition-transform duration-200 hover:scale-[1.1] md:flex-row md:space-x-2 md:text-lg md:hover:scale-[1.2]"
           >
             <span>{icon}</span>
             <span>{title}</span>

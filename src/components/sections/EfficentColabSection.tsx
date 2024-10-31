@@ -14,8 +14,8 @@ function EfficentColabSection() {
         />
       </div>
       <article className="mx-auto flex w-full flex-col space-y-5 text-center md:w-[50%] md:text-start">
-        <h5 className="mb-5 text-5xl font-bold">Efficient Colaboration</h5>
-        <p className="text-balance text-2xl font-medium text-gray-600">
+        <h5 className="mb-5 text-3xl font-bold md:text-5xl">Efficient Colaboration</h5>
+        <p className="text-balance text-lg font-medium text-gray-600 md:text-2xl">
           Mauris consequat, cursus pharetra et, habitasse rhoncus quis odio ac. In et dolor eu donec
           maecenas nulla. Cum sed orci, sit pellentesque quisque feugiat cras ullamcorper.
         </p>

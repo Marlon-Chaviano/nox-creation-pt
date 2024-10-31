@@ -1,6 +1,6 @@
 export function ViewioIcon() {
   return (
-    <svg fill="none" height="32" viewBox="0 0 54 32" width="54" xmlns="http://www.w3.org/2000/svg">
+    <svg className="h-8 w-full" fill="none" viewBox="0 0 54 32" xmlns="http://www.w3.org/2000/svg">
       <path
         d="M0.5 16C0.5 7.16344 7.66344 0 16.5 0H37.5C46.3366 0 53.5 7.16344 53.5 16V32H16.5C7.66344 32 0.5 24.8366 0.5 16Z"
         fill="#4F46E5"
