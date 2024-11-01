@@ -12,3 +12,10 @@
 html::-webkit-scrollbar {
     display: none; /* Oculta la scrollbar en navegadores basados en WebKit */
 }
+
+
+@layer base {
+  :root {
+        --radius: 0.5rem
+    }
+}

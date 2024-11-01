@@ -2,7 +2,7 @@ import ClockIcon from "../icons/ClockIcon";
 import Stars from "../icons/StarsIcon";
 import {TournamentIcon} from "../icons/TournamentIcon";
 
-const benefits = [
+export const benefits = [
   {
     id: 1,
     title: "Nisl arcu nunc",
@@ -22,8 +22,6 @@ const benefits = [
     icon: <Stars />,
   },
 ];
-
-import React from "react";
 
 function BenefitsSection() {
   return (

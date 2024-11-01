@@ -5,10 +5,10 @@ import LogoIcon from "./icons/LogoIcon";
 export function NavBar() {
   return (
     <nav className="-mb-2 flex w-full items-center justify-between bg-primary px-4 py-4 text-white lg:px-20">
-      <div className="flex items-center space-x-1">
+      <Link className="flex items-center space-x-1" href="/">
         <LogoIcon fill="#fff" />
         <h1 className="text-2xl">protech</h1>
-      </div>
+      </Link>
 
       <div className="hidden space-x-6 text-sm font-medium md:flex">
         <Link
