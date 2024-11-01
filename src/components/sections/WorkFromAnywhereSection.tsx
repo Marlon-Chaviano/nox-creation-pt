@@ -4,7 +4,7 @@ import Mobile from "../../images/Right.webp";
 import GamesStoreButton from "../GamesStoreButton";
 function WorkFromAnywhereSection() {
   return (
-    <section className="flex w-full flex-col-reverse items-center justify-end bg-white px-8 py-20 md:flex-row-reverse md:justify-between md:space-x-8 md:px-10 lg:px-32">
+    <section className="flex w-full flex-col-reverse items-center justify-end bg-white py-20 xs:px-2 sm:px-8 md:flex-row-reverse md:justify-between md:space-x-8 md:px-10 lg:px-32">
       <div className="w-full pt-10 md:w-[50%] md:pt-0">
         <Image alt="Phone Photo" className="h-auto w-full" loading="lazy" src={Mobile} />
       </div>
@@ -14,7 +14,7 @@ function WorkFromAnywhereSection() {
           In et dolor eu donec maecenas nulla. Cum sed orci, sit pellentesque quisque feugiat cras
           ullamcorper. Ultrices in amet, ullamcorper non viverra a, neque orci.
         </p>
-        <div className="mx-auto mt-2 flex space-x-2 md:m-0">
+        <div className="mx-auto mt-2 flex w-full justify-center space-x-2 md:m-0">
           <GamesStoreButton variant="apple" />
           <GamesStoreButton variant="play-store" />
         </div>

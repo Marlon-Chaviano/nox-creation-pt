@@ -8,8 +8,8 @@ import RequestDemoBtn from "../RequestDemoBtn";
 
 function HeadingSection() {
   return (
-    <section className="relative z-0 grid min-h-screen w-full grid-rows-[auto,1fr,auto] items-center justify-center bg-primary pt-10">
-      <div className="z-50 mx-auto mb-8 flex w-full flex-col space-y-10 text-center text-white">
+    <section className="relative z-0 grid w-full grid-rows-[auto,1fr,auto] items-center justify-center bg-primary pt-16 4k:w-screen 4k:pt-28">
+      <div className="z-50 mx-auto mb-8 flex w-full flex-col space-y-10 text-center text-white lg:max-w-[90%] 4k:mb-28">
         <h3 className="text-balance text-4xl font-bold sm:text-6xl md:text-7xl lg:text-8xl">
           Technology design tools for engineers and hobbyists
         </h3>
@@ -23,13 +23,20 @@ function HeadingSection() {
         </div>
         <RequestDemoBtn />
       </div>
-
-      <div className="relative mt-auto w-full">
-        <Image alt="Mac Desktop Photo" className="-z-10 m-auto h-auto" src={DesktopImage} />
-        <Image alt="vector" className="absolute bottom-52 -z-30 h-auto w-full" src={Line} />
+      <div className="relative mt-auto w-full 4k:w-screen">
+        <Image
+          alt="Mac Desktop Photo"
+          className="-z-10 m-auto h-auto max-w-[90%] 4k:w-[80%]"
+          src={DesktopImage}
+        />
         <Image
           alt="vector"
-          className="absolute -bottom-12 -z-40 h-auto w-full lg:-bottom-20"
+          className="lg:bottom-46 md:bottom-34 absolute bottom-12 -z-30 h-auto w-full sm:bottom-20 xl:bottom-52"
+          src={Line}
+        />
+        <Image
+          alt="vector"
+          className="absolute -bottom-12 -z-40 h-auto w-full xs:-bottom-6 lg:-bottom-20 4k:-bottom-56"
           src={Vector}
         />
       </div>

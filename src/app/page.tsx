@@ -1,3 +1,4 @@
+import BenefitsSection from "@/components/sections/BenefitsSection";
 import {BlueSection} from "@/components/sections/BlueSection";
 import EfficentColabSection from "@/components/sections/EfficentColabSection";
 import GetYourBusinessGrowFastSection from "@/components/sections/GetYourBusinessGrowFastSection";
@@ -14,6 +15,7 @@ export default function HomePage() {
       <WorkFromAnywhereSection />
       <BlueSection />
       <GetYourBusinessGrowFastSection />
+      <BenefitsSection />
     </div>
   );
 }

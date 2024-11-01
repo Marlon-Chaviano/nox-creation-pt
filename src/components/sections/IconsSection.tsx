@@ -34,8 +34,8 @@ const icons = [
 
 function IconsSection() {
   return (
-    <section className="mt-30 z-50 flex min-h-48 justify-center bg-white px-6 md:px-20">
-      <ul className="mx-auto flex list-none content-center items-center space-x-8 md:justify-between lg:w-[70%]">
+    <section className="mt-30 z-50 flex min-h-48 justify-center bg-white px-6 md:px-20 4k:mt-36">
+      <ul className="mx-auto mt-6 flex list-none flex-wrap items-center justify-center xs:space-x-4 sm:flex-nowrap sm:space-x-4 md:justify-between md:space-x-8 lg:w-[70%]">
         {icons.map(({id, icon, title}) => (
           <li
             key={id}
