@@ -2,6 +2,7 @@ import type {Metadata} from "next";
 
 import "./globals.css";
 import {NavBar} from "@/components/NavBar";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Prueba Técnica NOX-Creation",
@@ -12,14 +13,12 @@ export const metadata: Metadata = {
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en">
-      <body className="dark m-auto grid min-h-screen grid-rows-[auto,1fr,auto] bg-white font-sans text-foreground antialiased">
+      <body className="dark relative m-auto grid min-h-screen grid-rows-[auto,1fr,auto] bg-white font-sans text-foreground antialiased">
         <header className="w-full text-xl font-bold leading-[4rem]">
           <NavBar />
         </header>
         <main className="relative m-auto">{children}</main>
-        <footer className="mt-auto text-center leading-[4rem] opacity-70">
-          © 2024 NOX-Creation Prueba Técnica
-        </footer>
+        <Footer />
       </body>
     </html>
   );

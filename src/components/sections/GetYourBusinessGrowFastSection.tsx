@@ -16,7 +16,7 @@ function GetYourBusinessGrowFastSection() {
       <div className="relative mx-auto mt-10 w-full">
         <Image
           alt="Purple Rectangle"
-          className="sm:top-18 absolute top-12 h-auto w-full xs:top-14 lg:top-20 xxl:top-28 4k:top-56"
+          className="absolute top-12 h-auto w-full xs:top-8 sm:top-16 lg:top-20 xxl:top-28 4k:top-56"
           loading="lazy"
           src={Rectangle}
         />
