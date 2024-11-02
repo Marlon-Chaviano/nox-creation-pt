@@ -10,6 +10,7 @@ import LinksSection from "@/components/sections/LinksSection";
 import PurpleSection from "@/components/sections/PurpleSection";
 import {TechnologyArticlesSection} from "@/components/sections/TechnologyArticlesSection";
 import WorkFromAnywhereSection from "@/components/sections/WorkFromAnywhereSection";
+import YellowSection from "@/components/sections/YellowSection";
 
 export default function HomePage() {
   return (
@@ -21,7 +22,7 @@ export default function HomePage() {
       <BlueSection />
       <GetYourBusinessGrowFastSection />
       <BenefitsSection />
-      {/* YellowSection */}
+      <YellowSection />
       <FeaturesSection />
       <TechnologyArticlesSection />
       <FaqSection />
