@@ -10,9 +10,10 @@ export function PostSkeleton({avatar}: {avatar?: boolean}) {
         <Skeleton className="h-4 w-full" />
       </div>
 
-      <div className="flex flex-col items-center space-y-2">
-        <Skeleton className="h-4 w-[400px]" />
-        <Skeleton className="h-4 w-[400px]" />
+      <div className="flex w-full flex-col items-center space-y-2">
+        <Skeleton className="h-4 w-full max-w-[400px]" />
+        <Skeleton className="h-4 w-full max-w-[400px]" />
+        <Skeleton className="h-4 w-full max-w-[400px]" />
       </div>
     </div>
   );
