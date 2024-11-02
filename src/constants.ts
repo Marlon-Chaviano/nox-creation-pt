@@ -7,6 +7,11 @@ import Picture6 from "./images/Picture (6).webp";
 import Photo1 from "./images/Picture (7).webp";
 import Photo2 from "./images/Picture (8).webp";
 import Photo3 from "./images/Picture (9).webp";
+import AstromIcon from "./components/icons/AstromIcon";
+import CicioIcon from "./components/icons/CicioIcon";
+import {ViewioIcon} from "./components/icons/ViewioIcon";
+import VRocketsIcon from "./components/icons/VRocketsIcon";
+import WeavyIcon from "./components/icons/WeavyIcon";
 
 export const features = [
   {
@@ -121,5 +126,33 @@ export const linksSections = [
     id: 4,
     category: "COMPANY",
     links: ["About", "Press", "Events", "Carreers"],
+  },
+];
+
+export const icons = [
+  {
+    id: 1,
+    title: "Astrom",
+    icon: AstromIcon,
+  },
+  {
+    id: 2,
+    title: "cicio",
+    icon: CicioIcon,
+  },
+  {
+    id: 3,
+    title: "weavy",
+    icon: WeavyIcon,
+  },
+  {
+    id: 4,
+    title: "vRockets",
+    icon: VRocketsIcon,
+  },
+  {
+    id: 5,
+    title: "viewio",
+    icon: ViewioIcon,
   },
 ];

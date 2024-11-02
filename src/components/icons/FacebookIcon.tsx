@@ -1,7 +1,7 @@
 function FacebookIcon() {
   return (
     <svg
-      className="icon icon-tabler icons-tabler-filled icon-tabler-brand-facebook"
+      className="icon icon-tabler icons-tabler-filled icon-tabler-brand-facebook transition duration-200 hover:scale-[1.1] hover:text-active"
       fill="currentColor"
       height="24"
       viewBox="0 0 24 24"

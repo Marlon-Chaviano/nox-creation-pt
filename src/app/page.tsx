@@ -15,7 +15,7 @@ export default function HomePage() {
   return (
     <div>
       <HeadingSection />
-      {/* <IconsSection /> */}
+      <IconsSection />
       <EfficentColabSection />
       <WorkFromAnywhereSection />
       <BlueSection />

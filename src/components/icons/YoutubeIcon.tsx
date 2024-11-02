@@ -1,7 +1,7 @@
 function YoutubeIcon() {
   return (
     <svg
-      className="icon icon-tabler icons-tabler-filled icon-tabler-brand-youtube"
+      className="icon icon-tabler icons-tabler-filled icon-tabler-brand-youtube transition duration-200 hover:scale-[1.1] hover:text-active"
       fill="currentColor"
       height="24"
       viewBox="0 0 24 24"

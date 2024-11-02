@@ -17,7 +17,7 @@ function LinksSection() {
           {linkSection.links.map((link) => (
             <span
               key={Math.random()}
-              className="cursor-pointer text-foreground transition-all duration-200 hover:font-medium hover:underline"
+              className="w-fit cursor-pointer text-foreground transition-all duration-200 hover:font-medium hover:underline"
             >
               {link}
             </span>

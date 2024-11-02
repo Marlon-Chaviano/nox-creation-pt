@@ -1,48 +1,19 @@
-import AstromIcon from "../icons/AstromIcon";
-import CicioIcon from "../icons/CicioIcon";
-import {ViewioIcon} from "../icons/ViewioIcon";
-import VRocketsIcon from "../icons/VRocketsIcon";
-import WeavyIcon from "../icons/WeavyIcon";
+import React from "react";
 
-const icons = [
-  {
-    id: 1,
-    title: "Astrom",
-    icon: <AstromIcon />,
-  },
-  {
-    id: 2,
-    title: "cicio",
-    icon: <CicioIcon />,
-  },
-  {
-    id: 3,
-    title: "weavy",
-    icon: <WeavyIcon />,
-  },
-  {
-    id: 4,
-    title: "vRockets",
-    icon: <VRocketsIcon />,
-  },
-  {
-    id: 5,
-    title: "viewio",
-    icon: <ViewioIcon />,
-  },
-];
+import {icons} from "../../constants";
 
 function IconsSection() {
   return (
-    <section className="mt-30 z-50 flex min-h-48 justify-center bg-white px-6 md:px-20 4k:mt-36">
-      <ul className="mx-auto mt-6 flex list-none flex-wrap items-center xs:justify-center xs:space-x-1 sm:flex-nowrap sm:space-x-4 md:justify-between md:space-x-8 lg:w-[70%]">
-        {icons.map(({id, icon, title}) => (
-          <li
-            key={id}
-            className="flex cursor-pointer items-center text-center text-xs font-bold text-foreground transition-transform duration-200 hover:scale-[1.1] xs:flex-col xs:space-y-2 md:flex-row md:space-x-2 md:space-y-0 md:text-lg md:hover:scale-[1.2]"
-          >
-            <span>{icon}</span>
-            <span>{title}</span>
+    <section className="mt-16 px-4 py-10 md:px-24">
+      <ul className="mx-auto flex max-w-4xl justify-between">
+        {icons.map((icon) => (
+          <li key={icon.id}>
+            <div className="flex flex-wrap items-center justify-center space-y-2 transition-transform duration-200 hover:scale-[1.1] md:space-x-1 md:space-y-0">
+              <span>
+                <icon.icon />
+              </span>
+              <span className="text-xs font-semibold text-foreground lg:text-xl">{icon.title}</span>
+            </div>
           </li>
         ))}
       </ul>
