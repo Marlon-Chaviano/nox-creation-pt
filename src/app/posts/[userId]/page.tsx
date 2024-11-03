@@ -1,19 +1,20 @@
 "use client";
 
 import Image from "next/image";
-import {use, useEffect, useState} from "react";
+import {useEffect, useState} from "react";
 import Link from "next/link";
 import React from "react";
+import {useParams} from "next/navigation";
 
 import Avatar from "../../../images/avatar-svgrepo-com.png";
 
-import PostsList from "@/components/PostsList";
 import {Post} from "@/types";
 import {api} from "@/api";
 import UsersPostsList from "@/components/UsersPostsList";
 import LeftArrowIcon from "@/components/icons/LeftArrowIcon";
 
-function Page({params}: {params: {userId: number}}) {
+function Page() {
+  const params = useParams();
   const [userPosts, setUserPosts] = useState<Post[]>([]);
 
   useEffect(() => {
