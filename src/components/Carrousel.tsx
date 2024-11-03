@@ -35,7 +35,7 @@ function Carrousel() {
             <div className="p-1">
               <Image
                 alt="dada"
-                className="flex w-full select-none items-center justify-center rounded-2xl"
+                className="flex w-full select-none items-center justify-center rounded-xl"
                 loading="lazy"
                 src={Photo}
               />

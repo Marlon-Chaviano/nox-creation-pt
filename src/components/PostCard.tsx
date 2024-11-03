@@ -15,7 +15,7 @@ function PostCard({post, avatar, link}: Props) {
   if (link) {
     return (
       <Link
-        className="flex w-full flex-col items-center space-y-4 rounded-xl border-[0.5px] border-gray-400 px-4 py-4 text-center shadow-2xl hover:border-white"
+        className="flex w-full flex-col items-center space-y-4 rounded-xl border-gray-500 px-4 py-4 text-center shadow-2xl transition duration-300 hover:border"
         href={`posts/${post.userId}`}
       >
         <div className={`${avatar && "hidden"}`}>
@@ -29,7 +29,7 @@ function PostCard({post, avatar, link}: Props) {
     );
   } else {
     return (
-      <div className="flex w-full flex-col items-center space-y-4 rounded-xl border-[0.5px] border-gray-400 px-4 py-4 text-center shadow-2xl">
+      <div className="flex w-full flex-col items-center space-y-4 rounded-xl border border-gray-500 px-4 py-4 text-center shadow-2xl">
         <div className={`${avatar && "hidden"}`}>
           <Image alt="avatar photo" loading="lazy" src={Avatar} width={100} />
         </div>

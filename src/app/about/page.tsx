@@ -14,7 +14,7 @@ const page = () => {
       <div className="flex w-full items-center justify-center">
         <Image
           alt="Marlon Chaviano Photo"
-          className="w-full max-w-[400px] rounded-xl border border-4 border-white shadow-2xl transition-transform duration-300 md:hover:-translate-y-10 md:hover:scale-[1.2]"
+          className="w-full max-w-[400px] rounded-xl border-4 border-white shadow-2xl transition-transform duration-300 md:hover:-translate-y-10 md:hover:scale-[1.2]"
           height={350}
           src={ProfilePic}
           width={350}
@@ -22,7 +22,7 @@ const page = () => {
       </div>
       <div className="w-1/2 xs:w-full">
         <div className="mt-6 flex items-center space-x-2">
-          <h1 className="text-3xl font-bold">Marlon Chaviano</h1>
+          <h1 className="text-xl font-bold md:text-3xl">Marlon Chaviano</h1>
           <a
             download
             className="rounded-xl border bg-primary p-2 font-semibold text-white transition duration-200 hover:bg-white hover:text-primary"
@@ -74,7 +74,7 @@ const page = () => {
             <span>
               <LocationIcon />
             </span>
-            <span>Villa Clara - Cuba</span>
+            <span className="text-xs md:text-lg">Villa Clara</span>
           </div>
         </div>
       </div>
