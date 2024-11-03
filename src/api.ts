@@ -1,6 +1,5 @@
 import {redirect} from "next/navigation";
 
-import second from "./app/error";
 import {Post} from "./types";
 
 const apiUrl = "https://jsonplaceholder.typicode.com/posts";
@@ -24,7 +23,7 @@ export const api = {
 
       return sixPostsOneEveryUser;
     } catch (e) {
-      redirect(`error_page`);
+      redirect(`error`);
     }
   },
   getUserPosts: async (userId: number) => {
@@ -34,7 +33,7 @@ export const api = {
 
       return fetchedPosts.filter((post) => post.userId == userId);
     } catch (e) {
-      redirect(`error_page`);
+      redirect(`error`);
     }
   },
 };
