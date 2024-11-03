@@ -7,7 +7,6 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Prueba Técnica NOX-Creation",
   description: "Solución a la prueba tecnica de NOX-Creation",
-  viewport: "1",
 };
 
 export default function RootLayout({children}: {children: React.ReactNode}) {

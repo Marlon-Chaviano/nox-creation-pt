@@ -1,7 +1,6 @@
 import {redirect} from "next/navigation";
-import GlobalError from "next/dist/client/components/error-boundary";
-import {sendError} from "next/dist/server/api-utils";
 
+import second from "./app/error";
 import {Post} from "./types";
 
 const apiUrl = "https://jsonplaceholder.typicode.com/posts";
@@ -25,9 +24,7 @@ export const api = {
 
       return sixPostsOneEveryUser;
     } catch (e) {
-      redirect(
-        "error?message=An error occurred while fetching the posts&redirectTo=/posts&statusCode=500",
-      );
+      redirect(`error_page`);
     }
   },
   getUserPosts: async (userId: number) => {
@@ -37,9 +34,7 @@ export const api = {
 
       return fetchedPosts.filter((post) => post.userId == userId);
     } catch (e) {
-      redirect(
-        `error?message=An error occurred while fetching the posts&redirectTo=/posts/${userId}&statusCode=500`,
-      );
+      redirect(`error_page`);
     }
   },
 };
