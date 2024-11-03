@@ -1,11 +1,12 @@
 import {redirect} from "next/navigation";
 
 import {Post} from "./types";
+const apiUrl = "https://jsonplaceholder.typicode.com/posts";
 
 export const api = {
   getAll: async function () {
     try {
-      const response = await fetch(process.env.NEXT_PUBLIC_API_URL as string);
+      const response = await fetch(apiUrl);
       const fetchedPosts = (await response.json()) as Post[];
       const sixPostsOneEveryUser = [];
       const users = new Set();
@@ -26,7 +27,7 @@ export const api = {
   },
   getUserPosts: async (userId: number) => {
     try {
-      const response = await fetch(process.env.NEXT_PUBLIC_API_URL as string);
+      const response = await fetch(apiUrl);
       const fetchedPosts = (await response.json()) as Post[];
 
       return fetchedPosts.filter((post) => post.userId == userId);
