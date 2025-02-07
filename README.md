@@ -1,15 +1,4 @@
-## Getting Started with nox-creation-pt
+Prueba Técnica para la empresa de desarrollo de software NOX-Creation
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![Web Page thumbnail](/public/nox-creation-pt.png)
